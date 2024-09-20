@@ -3,7 +3,7 @@ Create a function with the Singleton Pattern for bank branch management.
 
 ## What I learned
 A Singleton pattern ensures that a class has only one instance.<br>
-In this challenge, only one instance of BankBranch is created, even when the constructor is called multiple times. The first call creates the instance, and the calls that follow return the existing instance.
+In this challenge, only one instance of `BankBranch` is created, even when the constructor is called multiple times. The first call creates the instance, and the calls that follow return the existing instance.
 ```JavaScript
 const branchA = new BankBranch({name: "Branch-A", location: "Johannesburg"}); //instance created
 const branchB = new BankBranch({name: "Branch-B", location: "Pretoria"}); //when this is called, it will return info for first instance - branchA
